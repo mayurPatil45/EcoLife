@@ -1,0 +1,27 @@
+.showcase {
+    height: auto;
+    background-color: var(--color-secondary);
+    background-image: linear-gradient(to bottom, var(--color-primary), rgba(15, 23, 42, 0));
+    padding: 30px;
+    border-radius: 0 0 35px 35px;
+}
+
+.showcase-text {
+    max-width: 40%;
+    color: #fff;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.showcase h1 {
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.showcase p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Add any additional styles or media queries as needed */
