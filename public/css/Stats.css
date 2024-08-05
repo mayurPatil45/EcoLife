@@ -4,13 +4,16 @@
 }
 
 .stats-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 0 20px;
+    line-height: 1;
+    margin: 30px;
 }
 
 .stat-box {
+    
     flex: 1;
     min-width: 200px;
     max-width: 250px;
@@ -20,6 +23,7 @@
     text-align: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 
 .stat-box:hover {

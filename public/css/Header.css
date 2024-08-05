@@ -1,14 +1,11 @@
-/* Header container */
 .header {
     height: 70px;
     background: var(--color-primary);
-    /* Replace with your primary color */
     display: flex;
     align-items: center;
     padding: 0 20px;
 }
 
-/* Container for header content */
 .header .container {
     height: 100%;
     display: flex;
@@ -17,73 +14,52 @@
     width: 100%;
 }
 
-/* Logo container */
 .logo {
     display: flex;
     align-items: center;
 }
 
-/* Logo link styles */
 .logo-link {
     display: flex;
     align-items: center;
     text-decoration: none;
-    /* Remove underline from link */
 }
 
-/* Logo image styles */
 .logo img {
     height: 35px;
     vertical-align: middle;
 }
 
-/* Logo text styles */
 .logo-txt {
     color: #fff;
-    /* White text color */
     font-size: 1.2rem;
-    /* Adjust size as needed */
     font-weight: 900;
-    /* Bold text */
     margin-left: 8px;
-    /* Space between logo image and text */
 }
 
-/* Navigation styles */
 nav {
     display: flex;
 }
 
-/* Navigation links container */
 .nav-links {
     display: flex;
     list-style: none;
-    /* Remove bullet points */
     margin: 0;
     padding: 0;
 }
 
-/* Navigation link styles */
 .nav-links li {
     margin: 0 10px;
-    /* Space between links */
 }
 
-/* Navigation link styles */
 .nav-link {
     color: #fff;
     text-decoration: none;
-    /* Remove underline from link */
     font-weight: 700;
-    /* Bold text */
     font-size: 1.2rem;
-    /* Adjust size as needed */
     transition: color 0.3s ease-in-out;
-    /* Smooth color transition */
 }
 
-/* Navigation link hover styles */
 .nav-link:hover {
     color: yellow;
-    /* Change color on hover */
 }

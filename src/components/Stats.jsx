@@ -6,8 +6,8 @@ import "../../public/css/Stats.css";
 const statsData = [
   { icon: <Footprints />, end: 4500, label: 'Footprints calculated' },
   { icon: <Leaf />, end: 4000, label: 'Organisations helped with CO2 reduction' },
-  { icon: <WeightIcon />, end: 20, suffix: 'M', label: 'Tonnes of CO2 offset' },
-  { icon: <Medal />, end: 60, suffix: 'M', label: 'Climate Neutral Certified products sold' }
+  { icon: <WeightIcon />, end: 20, suffix: 'M +', label: 'Tonnes of CO2 offset' },
+  { icon: <Medal />, end: 60, suffix: 'M +', label: 'Climate Neutral Certified products sold' }
 ];
 
 const Stats = () => {

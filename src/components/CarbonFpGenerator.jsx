@@ -32,8 +32,7 @@ const CarbonFpCalc = () => {
             <div className="right">
                 <form className="carbon-form" onSubmit={calculateCarbonFootprint}>
                     <h2>Carbon Footprint Calculator</h2>
-                    <iframe width="500" height="500" frameBorder="0" marginWidth="0" marginHeight="0" scrolling="no" src="https://calculator.carbonfootprint.com/calculator.aspx"></iframe>
-                    {/* <div>
+                    <div>
                         <label htmlFor="electricity">Electricity Consumption (kWh/month):</label>
                         <input type="number" id="electricity" name="electricity" required />
                     </div>
@@ -53,7 +52,7 @@ const CarbonFpCalc = () => {
                         <label htmlFor="water">Water Consumption (liters/month):</label>
                         <input type="number" id="water" name="water" required />
                     </div>
-                    <button type="submit">Calculate</button> */}
+                    <button type="submit">Calculate</button>
                 </form>
             </div>
 
